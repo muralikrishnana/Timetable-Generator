@@ -10,9 +10,13 @@ Then the —functiontoQueueup()— function is called which puts all the data in
 Then the —generateTimeTable()— function is called which deques the data and puts in a 3D array.
 Then the —requestAndPrint()—   function is called which prints the timetable as requested.
    Functions										Description 
+  ----------------------------------------
   1-  FACULTY   *initFaculty(FACULTY *f,int n)           	 		To generate Faculty details
+  -------------------------------------------------------------------------------------------------------------------
   2-  COURSE    *initCourse(COURSE *c,int n)					To generate course details
+  ----------------------------------------
   3-  STUDENT   *initStudent(STUDENT *s,int n)					To generate student details
+  ----------------------------------------
   4-  CLASSROOM *initClassrooms(CLASSROOM *CL,int N)				To generate classroom details
   5-  ALLQUEUE *insertqueue(ALLQUEUE *queue,ALL *temp)			To insert an element passed into queue and create a queue
   6-  void	printqueue(ALLQUEUE *queue)			To print the details of elements of the queue for verification purposes
