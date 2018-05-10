@@ -3,21 +3,19 @@
 
 For our project, we chose Queues as the main data structure of our project, as it uses FIFO (FIRST IN FIRST OUT) . The main advantages is that adding or removing elements can be done quickly and efficiently because you would just add elements to the end of the queue or remove them from the front of the queue. The 
 Queue made is actually a Priority Queue prioritised in the order of Lab,classroom and then tutorials .
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # The MAIN function :-
    The main function automatically creates the Records for faculty,classroom,students and courses each time on startup which inserts the data in a complex data structure (consisting of multidimensional structures) from the records . 
 Then the —functiontoQueueup()— function is called which puts all the data in a queue.
 Then the —generateTimeTable()— function is called which deques the data and puts in a 3D array.
 Then the —requestAndPrint()—   function is called which prints the timetable as requested.
-
-  Functions                  								Description
-  1-  FACULTY   *initFaculty(FACULTY *f,int n)           	 			To generate Faculty details
-  2-  COURSE    *initCourse(COURSE *c,int n)            	  			To generate course details
-  3-  STUDENT   *initStudent(STUDENT *s,int n)           	  			To generate student details
-  4-  CLASSROOM *initClassrooms(CLASSROOM *CL,int N)          			To generate classroom details
-  5-  ALLQUEUE  *insertqueue(ALLQUEUE *queue,ALL *temp)       			To insert an element passed into queue and create a queue
-  6-  void 	  printqueue(ALLQUEUE *queue)       					To print the details of elements of the queue for verification purposes
+   Functions										Description 
+  1-  FACULTY   *initFaculty(FACULTY *f,int n)           	 		To generate Faculty details
+  2-  COURSE    *initCourse(COURSE *c,int n)					To generate course details
+  3-  STUDENT   *initStudent(STUDENT *s,int n)					To generate student details
+  4-  CLASSROOM *initClassrooms(CLASSROOM *CL,int N)				To generate classroom details
+  5-  ALLQUEUE *insertqueue(ALLQUEUE *queue,ALL *temp)			To insert an element passed into queue and create a queue
+  6-  void	printqueue(ALLQUEUE *queue)			To print the details of elements of the queue for verification purposes
   7-  ALLQUEUE  *functionToQueueUp(ALL *all)       					To insert elements into the queue in prioritised order
   8-  ALLQUEUE  *dequeue(ALLQUEUE *queue)       					To delete the front element in the queue
   9-  void       initialiseFreshTimeTable(ALL timetable[][6][8])    			To create a NULL element for each slot of all timetables
